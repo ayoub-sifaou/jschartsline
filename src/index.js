@@ -32,7 +32,7 @@ $(document).ready(function () {
         },
         charts: {
             height: 350,
-            borderRadius: 50,
+            borderRadius: 0,
             label: {
                 show: true,
                 font: {
@@ -61,7 +61,12 @@ $(document).ready(function () {
                 }
             },
             line: {
-                afterWidth: 55,
+                afterWidth: {
+                    width: 55,
+                    borderRadius: {
+                        show: true,
+                    }
+                },
                 width: 35,
                 dropShadow: {
                     show: true,

@@ -1,6 +1,6 @@
 {
   "name": "js-charts-line",
-  "version": "3.0.0",
+  "version": "3.0.3",
   "description": "Template JsChartsLine",
   "scripts": {
     "build": "webpack",

@@ -190,9 +190,14 @@ class ChartsJs {
             content = 'none';
         }
 
-        style = '.chartsJsItems-' + my.options.style.element + '-' + elementChartDefault + ':after {' +
-            'content: ' + content + ';' +
-            'height:' + heightGradient + '%;';
+        style = '.chartsJsItems-' + my.options.style.element + '-' + elementChartDefault + ':after {'+
+                'content: ' + content + ';';
+
+        if(my.options.charts.line.afterWidth.borderRadius.show) {
+            style += 'border-radius: ' + my.options.charts.borderRadius + 'px;';
+        }
+
+            style += 'height:' + heightGradient + '%;';
 
         if (my.options.charts.fill.dropShadow.show) {
             style += 'filter: drop-shadow(' + my.options.charts.fill.dropShadow.top + 'px ' + my.options.charts.fill.dropShadow.left + 'px ' + my.options.charts.fill.dropShadow.blur + 'px ' + my._hexToRGB(my.options.charts.fill.dropShadow.color, my.options.charts.fill.dropShadow.opacity) + ');';
@@ -210,10 +215,10 @@ class ChartsJs {
             afterWidth = 0,
             marginRightPositionAbsolute = my.options.charts.line.width / 2;
 
-        if (my.options.charts.line.afterWidth < my.options.charts.line.width) {
+        if (my.options.charts.line.afterWidth.width < my.options.charts.line.width) {
             afterWidth = my.options.charts.line.width + 20;
         } else {
-            afterWidth = my.options.charts.line.afterWidth;
+            afterWidth = my.options.charts.line.afterWidth.width;
         }
 
         html = '<div data-height="' + heightLineCharts + '"  class="chartsJsItems chartsJsItems-' + my.options.style.element + '-' + elementChartDefault + '" style="width:' + afterWidth + 'px;">\n' +
