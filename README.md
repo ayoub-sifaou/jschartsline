@@ -118,7 +118,14 @@ Bootstrap 4 compatible. Because use css classes in bootstrap 4.
 
 
 Screenshot
+
 ![image](https://user-images.githubusercontent.com/71824216/136416460-8b521bbe-0bc3-4b7a-ab05-d36c185f03d7.png)
+
+![sc2](https://user-images.githubusercontent.com/71824216/140049386-733a7d66-3775-4fb3-b217-d4d3c2a75d35.PNG)
+
+![image](https://user-images.githubusercontent.com/71824216/140049498-63ca5bb0-0a83-4b84-bca3-babfec8161dc.png)
+
+
 
 
 Browsers support
