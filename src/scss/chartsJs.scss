@@ -1,0 +1,38 @@
+/**
+* chartJs Template
+* Type Line
+**/
+
+
+.listChartJsStyle {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  .chartsJsItems {
+    height: 100%;
+    position: relative;
+    .item {
+      position: absolute;
+      right: 50%;
+      height: 100%;
+      transform: rotate(180deg);
+    }
+    .label {
+      margin-top: 10px;
+      position: absolute;
+      bottom: -40px;
+      text-align: center;
+    }
+    &:after {
+      position: absolute;
+      width: 100%;
+      bottom: -10px;
+      left: 0;
+      padding: 16px;
+      border-radius: 50px;
+    }
+  }
+}

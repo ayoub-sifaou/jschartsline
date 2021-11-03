@@ -1,0 +1,37 @@
+{
+  "name": "js-charts-line",
+  "version": "3.0.0",
+  "description": "Template JsChartsLine",
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack --mode=development",
+    "build-dev-server": "webpack serve --mode=development"
+  },
+  "keywords": [],
+  "author": "ayoub",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21"
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ayoub-sifaou/jschartsline.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/ayoub-sifaou/jschartsline/issues"
+  },
+  "homepage": "https://gitlab.com/ayoub-sifaou/jschartsline#readme"
+}
