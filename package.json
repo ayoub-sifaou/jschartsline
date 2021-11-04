@@ -1,6 +1,6 @@
 {
   "name": "js-charts-line",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Template JsChartsLine",
   "scripts": {
     "build": "webpack",
@@ -25,13 +25,5 @@
     "jquery": "^3.6.0",
     "lodash": "^4.17.21"
   },
-  "main": "webpack.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/ayoub-sifaou/jschartsline.git"
-  },
-  "bugs": {
-    "url": "https://gitlab.com/ayoub-sifaou/jschartsline/issues"
-  },
-  "homepage": "https://gitlab.com/ayoub-sifaou/jschartsline#readme"
+  "main": "webpack.config.js"
 }

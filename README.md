@@ -43,7 +43,7 @@ Bootstrap 4 compatible. Because use css classes in bootstrap 4.
 
 4. Example 
    ```sh
-    $(elements).chartsJs({
+   $(elements).chartsJs({
         data: [31, 40, 20, 18, 48, 14, 35, 20, 50],
         colors: ['#6480AD', '#FF5000', '#FACA68', '#77A4AA', '#2F3F58', '#6480AD', '#FF5000', '#FACA68', '#6480AD'],
         labels: ['legend 1', 'legend 2', 'legend 3', 'legend 4','legend 5', 'legend 6', 'legend 7', 'legend 8','legend 9'],
@@ -68,7 +68,7 @@ Bootstrap 4 compatible. Because use css classes in bootstrap 4.
         },
         charts: {
             height: 350,
-            borderRadius: 50,
+            borderRadius: 0,
             label: {
                 show: true,
                 font: {
@@ -97,7 +97,12 @@ Bootstrap 4 compatible. Because use css classes in bootstrap 4.
                 }
             },
             line: {
-                afterWidth: 55,
+                afterWidth: {
+                    width: 55,
+                    borderRadius: {
+                        show: true,
+                    }
+                },
                 width: 35,
                 dropShadow: {
                     show: true,
